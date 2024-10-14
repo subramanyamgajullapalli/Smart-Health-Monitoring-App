@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Summary</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="summary-container">
+        <h1>Health Summary</h1>
+        <p id="summary">Heart Rate: -- bpm, Step Count: --, Sleep Hours: --</p>
+
+        <div class="chart-container">
+            <canvas id="heartRateChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="stepCountChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="sleepHoursChart"></canvas>
+        </div>
+
+        <button onclick="goBack()">Go Back</button>
+    </div>
+
+    <script src="summary.js"></script>
+</body>
+</html>

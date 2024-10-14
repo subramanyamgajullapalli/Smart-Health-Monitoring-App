@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/neon-style-red-heartbeat-dark-grid-background_78370-2342.jpg);
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    background-color: #f0f4f8; /* Light gray-blue background */
+    color: #eb8507f1; /* Dark gray text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.summary-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.379); /* Subtle shadow */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em; /* Larger title size */
+    margin-bottom: 20px;
+    color: #0056b3; /* Deep blue for titles */
+}
+
+p {
+    font-size: 1.2em; /* Increased font size for readability */
+    margin: 15px 0;
+}
+
+.chart-container {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #0056b3; /* Deep blue button */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #004494; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale effect */
+}
